@@ -1,0 +1,52 @@
+﻿Сборка начата 14.10.2023 1:37:13.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Release\Lab5.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Lab5.cpp
+         Lab5.cpp
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(12,1): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(173,1): message : см. предыдущее определение "IP_DEST_NET_UNREACHABLE"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(13,1): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(174,1): message : см. предыдущее определение "IP_DEST_HOST_UNREACHABLE"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(14,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(175,1): message : см. предыдущее определение "IP_DEST_PROT_UNREACHABLE"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(15,1): warning C4005: IP_DEST_PORT_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(176,1): message : см. предыдущее определение "IP_DEST_PORT_UNREACHABLE"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(16,1): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(181,1): message : см. предыдущее определение "IP_REQ_TIMED_OUT"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(17,1): warning C4005: IP_BAD_REQ: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(182,1): message : см. предыдущее определение "IP_BAD_REQ"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(18,1): warning C4005: IP_BAD_ROUTE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(183,1): message : см. предыдущее определение "IP_BAD_ROUTE"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(19,1): warning C4005: IP_TTL_EXPIRED_TRANSIT: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(184,1): message : см. предыдущее определение "IP_TTL_EXPIRED_TRANSIT"
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\x64\Release\Lab5.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\x64\Release\Lab5.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"x64\Release\Lab5.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\x64\Release\Lab5.lib" /MACHINE:X64 x64\Release\Lab5.obj
+         Создание кода
+         Previous IPDB not found, fall back to full compilation.
+         All 42 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Создание кода завершено
+         Lab5.vcxproj -> C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\x64\Release\Lab5.exe
+       FinalizeBuildStatus:
+         Файл "x64\Release\Lab5.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Release\Lab5.tlog\Lab5.lastbuildstate".
+     1>Сборка проекта "C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(12,1): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(13,1): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(14,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(15,1): warning C4005: IP_DEST_PORT_UNREACHABLE: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(16,1): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(17,1): warning C4005: IP_BAD_REQ: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(18,1): warning C4005: IP_BAD_ROUTE: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(19,1): warning C4005: IP_TTL_EXPIRED_TRANSIT: изменение макроопределения
+
+    Предупреждений: 8
+    Ошибок: 0
+
+Прошло времени 00:00:01.31

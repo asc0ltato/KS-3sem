@@ -1,0 +1,50 @@
+﻿Сборка начата 14.10.2023 1:31:24.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Release\Lab5.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Release\\" /Fd"Release\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Lab5.cpp
+         Lab5.cpp
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(7,17): warning C4109: непредвиденный идентификатор "warning"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(12,1): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(173,1): message : см. предыдущее определение "IP_DEST_NET_UNREACHABLE"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(13,1): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(174,1): message : см. предыдущее определение "IP_DEST_HOST_UNREACHABLE"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(14,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(175,1): message : см. предыдущее определение "IP_DEST_PROT_UNREACHABLE"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(15,1): warning C4005: IP_DEST_PORT_UNREACHABLE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(176,1): message : см. предыдущее определение "IP_DEST_PORT_UNREACHABLE"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(16,1): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(181,1): message : см. предыдущее определение "IP_REQ_TIMED_OUT"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(17,1): warning C4005: IP_BAD_REQ: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(182,1): message : см. предыдущее определение "IP_BAD_REQ"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(18,1): warning C4005: IP_BAD_ROUTE: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(183,1): message : см. предыдущее определение "IP_BAD_ROUTE"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(19,1): warning C4005: IP_TTL_EXPIRED_TRANSIT: изменение макроопределения
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ipexport.h(184,1): message : см. предыдущее определение "IP_TTL_EXPIRED_TRANSIT"
+     1>C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(44,25): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>Сборка проекта "C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(7,17): warning C4109: непредвиденный идентификатор "warning"
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(12,1): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(13,1): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(14,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(15,1): warning C4005: IP_DEST_PORT_UNREACHABLE: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(16,1): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(17,1): warning C4005: IP_BAD_REQ: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(18,1): warning C4005: IP_BAD_ROUTE: изменение макроопределения
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(19,1): warning C4005: IP_TTL_EXPIRED_TRANSIT: изменение макроопределения
+
+
+       "C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\Леново\Desktop\⠀⠀⠀\3сем\КСиС\Lab5\Lab5\Lab5.cpp(44,25): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+
+    Предупреждений: 9
+    Ошибок: 1
+
+Прошло времени 00:00:00.95
